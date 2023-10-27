@@ -1,0 +1,292 @@
+body{
+	width: auto;
+	max-width: calc(100% - 20px);
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #FFF7E7;
+}
+
+div, menu{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	margin: 0 auto;
+}
+
+header{
+	width: 100%;
+	padding: 10px 10px 0 10px;
+	background: #D7C6B2;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+.header-top{
+	display: flex;
+	margin: 10px 10px 0;
+}
+
+.flex-container{
+	display: flex;
+	justify-content: space-between;
+}
+
+#menu-button{
+	width: 33px;
+	height: 33px;
+	background: url("../img/menu_button.svg") 50% 50% no-repeat;
+	background-size: 29px 25px;
+	padding: 0;
+	border: none;
+	border-radius: 5px;
+}
+
+#search-button{
+	width: 33px;
+	height: 33px;
+	background: url("../img/search_button.svg") 50% 50% no-repeat;
+	background-size: 32px 32px;
+	margin-left: 20px;
+	padding: 0;
+	border: none;
+	border-radius: 5px;
+}
+
+#menu-button:hover, #search-button:hover{
+	background-color: rgba(188, 173, 155, 0.576)
+}
+
+.eng-lang{
+	width: calc(50% - 82px);
+	text-align: right;
+	line-height: 33px;
+	padding-right: 10px;
+}
+
+.eng-lang>a{
+	color: #656565;
+}
+
+.ukr-lang{
+	width: calc(50% - 150px);
+	font-weight: bold;
+	line-height: 33px;
+	padding-left: 10px;
+}
+
+#subscribe-button{
+	width: 150px;
+	background-color: #978064;
+	color: #FFF7E7;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+}
+
+#subscribe-button:hover{
+	background-color: #87735a;
+}
+
+h1{
+	margin: 5px 0 ;
+	font-size: 50px;
+	text-align: center;
+	
+}
+
+.current-date {
+	width: 50%;
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+.todays-paper{
+	width: 50%;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.main-menu{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 2px 0 0 0;
+	padding: 0 7px;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	border-radius: 2px;
+	
+}
+
+.main-menu li{
+	list-style: none;
+	line-height: 45px;
+	font-weight: bold;
+	text-align: center;
+	width: calc(100% / 13);
+	margin: 3px 0;
+}
+
+.main-menu li>a:hover{
+	text-underline-offset: 3px;
+	text-decoration: underline;
+}
+
+.recom-sec{
+	width: 100%;
+	display: flex;
+	margin: 10px 10px 0;
+	border-bottom: 3px solid #999999;
+}
+
+.recom-news{
+	display: flex;
+	padding: 10px;
+	border-right: 3px solid #999999;
+}
+
+.recom-news img{
+	width: 120px;
+	min-width: 120px;
+	height: 120px;
+	border-radius: 10px;
+	background-color: #978064;
+}
+
+.recom-news h4{
+	margin: 10px 0 0 10px;
+}
+
+.recom-news-info{
+	margin: 10px 0 0 10px;
+	color: #656565;
+}
+
+.weather-sec{
+	display: flex;
+	width: 210px;
+	min-width: 150px;
+	height: 120px;
+	margin: 10px 10px;
+	background-color: #978064;
+	border-radius: 10px;
+	font-weight: bold;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	color: #FFF7E7;
+}
+
+.weather-sec img{
+	margin-right: 10px;
+}
+
+.degrees{
+	font-size: 30px;
+}
+
+.triple-border{
+	width: 100%;
+	height: 2px;
+	border-top: 3px solid #999999;
+	border-bottom: 3px solid #999999;
+	margin: 3px 10px;
+}
+
+.main-content{
+	width: 100%;
+	display: flex;
+	margin: 30px 10px;
+	text-align: justify;
+}
+
+.main-content h2, .main-content h3{
+	margin-right: 30px;
+}
+
+.main-news-info{
+	margin-right: 30px;
+	color: #656565;
+}
+
+.alpine-map{
+	width: 650px;
+}
+
+.char-fond-sec{
+	border-left: 3px solid #999999;
+	padding: 0 30px;
+}
+
+.char-fond-sec img{
+	width: 460px;
+	padding: 20px 0;
+}
+
+.char-fond-sec a{
+	color: #978064;
+}
+
+.char-fond-sec a:hover{
+	text-underline-offset: 3px;
+	text-decoration: underline;	
+}
+
+.char-fond-content{
+	text-align: justify;
+	color: #656565;
+}
+
+footer{
+	width: 100%;
+	padding: 0 10px 10px 10px;
+	background: #D7C6B2;
+}
+
+footer>h2{
+	margin: 0;
+	padding: 20px 0 10px 10px;
+	border-top: 3px solid black;
+}
+
+#footer-content{
+	padding: 10px;
+}
+
+#footer-content ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#footer-content li{
+	width: 170px;
+	line-height: 30px;
+}
+
+#footer-content a{
+	color: #656565;
+
+}
+
+#footer-content h4{
+	margin: 0;
+	line-height: 30px;
+}
+
+#footer-menu{
+	border-right: 3px solid #999999;
+}
+
+.footer-sec{
+	margin-left: 20px;
+}
